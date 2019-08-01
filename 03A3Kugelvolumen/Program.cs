@@ -17,10 +17,10 @@ namespace _03A3Kugelvolumen
             diameter = Convert.ToDouble(Console.ReadLine());
 
             surface = pi * Math.Pow(diameter,2);
-            volume = (pi * Math.Pow(diameter, 3)) / 6;
+            volume = (pi * Math.Pow(diameter,3)) / 6;
 
-            Console.WriteLine("Oberfläche :" + surface);
-            Console.WriteLine("Volumen    :" + volume);
+            Console.WriteLine("Oberfläche : {0:F2}", surface);
+            Console.WriteLine("Volumen    : {0:F2}", volume);
 
         }
     }
